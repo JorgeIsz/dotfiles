@@ -29,7 +29,7 @@
 
 ### Fonts
 * [nerd-fonts-terminus](https://github.com/ryanoasis/nerd-fonts)
-* [siji-git] (https://github.com/stark/siji)
+* [siji-git](https://github.com/stark/siji)
 
 ### GTK Theme
  -> [Flat-Remix-GTK](https://www.gnome-look.org/p/1214931/)
