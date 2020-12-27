@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/jorge/Documents/flutter/fl_almugraphql/lib'
+let g:netrw_dirhist_4='/home/jorge/Documents/flutter/fl_almugraphql'
+let g:netrw_dirhist_3='/home/jorge/Documents/flutter/fl_almugraphql/ios'
+let g:netrw_dirhist_2='/home/jorge/Documents/flutter/fl_almugraphql'
+let g:netrw_dirhist_1='/home/jorge/Documents/flutter/fl_almugraphql/lib'
+let g:netrw_dirhist_0='/home/jorge/Documents/flutter/fl_almugraphql'
+let g:netrw_dirhist_9='/home/jorge/Documents/almu/restaurantes/src/app/modules/restaurantes/resindividual'
+let g:netrw_dirhist_8='/home/jorge/Documents/almu/restaurantes/src/app/modules/restaurantes'
+let g:netrw_dirhist_7='/home/jorge/Documents/almu/restaurantes/src/app/modules'
+let g:netrw_dirhist_6='/home/jorge/Documents/almu/restaurantes/src/app'
