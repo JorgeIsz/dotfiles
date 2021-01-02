@@ -1,11 +1,42 @@
-snippet div "<div>" w
-<div>
-	${0:${VISUAL}}
-</div>
+snippet div
+	<div>
+		${0}
+	</div>
 endsnippet
 
-snippet tg "<tg>" w
-<$1>
-</$1>
+snippet div.
+	<div class="${1}">
+		${0}
+	</div>
+endsnippet
 
+snippet div#
+	<div id="${1}">
+		${0}
+	</div>
+endsnippet
+
+snippet tg "<tag>"
+<$1>
+$2
+</$1>
+endsnippet
+
+snippet t "<tag> en linea"
+<$1></$1>
+endsnippet
+
+snippet html5
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width">
+			<title>${1:`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&', '')`}</title>
+			${2:link}
+		</head>
+		<body>
+			${0:body}
+		</body>
+	</html>
 endsnippet

@@ -9,6 +9,7 @@ endsnippet
 snippet tcns "ts const"
 const ${1} = ${3}
 endsnippet
+
 snippet tcnst "ts const"
 const ${1}: ${2:any} = ${3}
 endsnippet
@@ -36,10 +37,10 @@ endsnippet
 snippet rfunc  "react function"
 import React from 'react'
 
-function $1(){
+const $1 = () => {
 
 	return (
-	<div>$2</div>
+		<div>$2</div>
 	)
 }
 
